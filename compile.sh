@@ -1,1 +1,1 @@
-clang bsdiff.c -DBSDIFF_EXECUTABLE -o ../../tools/bsdiff
+clang bsdiff.c -DBSDIFF_EXECUTABLE -lbz2 -o ../../tools/bsdiff
